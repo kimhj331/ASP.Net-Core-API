@@ -1,0 +1,17 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>netcoreapp3.1</TargetFramework>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="EntityFramework" Version="6.4.4" />
+    <PackageReference Include="Newtonsoft.Json" Version="13.0.1" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\ButlerLee.API.Contracts\ButlerLee.API.Contracts.csproj" />
+    <ProjectReference Include="..\ButlerLee.API.Models\ButlerLee.API.Models.csproj" />
+  </ItemGroup>
+
+</Project>

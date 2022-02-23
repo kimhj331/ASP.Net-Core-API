@@ -1,0 +1,21 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>netcoreapp3.1</TargetFramework>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="AutoMapper" Version="10.1.1" />
+    <PackageReference Include="NLog" Version="4.7.13" />
+    <PackageReference Include="System.Runtime.Extensions" Version="4.3.1" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\ButlerLee.API.Clients\ButlerLee.API.Clients.csproj" />
+    <ProjectReference Include="..\ButlerLee.API.Contracts\ButlerLee.API.Contracts.csproj" />
+    <ProjectReference Include="..\ButlerLee.API.LoggerService\ButlerLee.API.LoggerService.csproj" />
+    <ProjectReference Include="..\ButlerLee.API.Models\ButlerLee.API.Models.csproj" />
+    <ProjectReference Include="..\ButlerLee.API.Repositories\ButlerLee.API.Repositories.csproj" />
+  </ItemGroup>
+
+</Project>

@@ -1,0 +1,198 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="ADULTS_IS_NULL" xml:space="preserve">
+    <value>반드시 성인 1인 이상 포함 하여 예약해주세요.</value>
+  </data>
+  <data name="ALREADY_CANCELED_RESERVATION" xml:space="preserve">
+    <value>이미 취소된 예약 입니다.</value>
+  </data>
+  <data name="ALREADY_PAID_RESERVATION" xml:space="preserve">
+    <value>이미 결제된 예약 입니다.</value>
+  </data>
+  <data name="CANCEL_REASON_IS_NULL" xml:space="preserve">
+    <value>취소 사유가 입력되지 않았습니다. 확인 후 다시 시도하십시요.</value>
+  </data>
+  <data name="DATE_IS_INVALID" xml:space="preserve">
+    <value>예약 날짜가 올바르지 않습니다. 확인 후 다시 시도하십시요.</value>
+  </data>
+  <data name="HOST_AWAY_CARD_PAYMENT_FAIL" xml:space="preserve">
+    <value>일반카드결제(호스트어웨이) DB 업데이트 및 생성이 실패했습니다.</value>
+  </data>
+  <data name="INTERNAL_SERVER_ERROR" xml:space="preserve">
+    <value>서버에서 오류가 발생되었습니다.</value>
+  </data>
+  <data name="INVALID_CREDIT_CARD" xml:space="preserve">
+    <value>카드정보가 올바르게 입력되지 않았습니다. 확인 후 다시 시도하십시요.</value>
+  </data>
+  <data name="LISTING_NOT_FOUND" xml:space="preserve">
+    <value>숙소가 존재하지 않습니다.</value>
+  </data>
+  <data name="NOT_TEST_LISTING" xml:space="preserve">
+    <value>테스트용 객실이 아닙니다.</value>
+  </data>
+  <data name="PARAMETER_OBJECT_IS_NULL" xml:space="preserve">
+    <value>변수가 입력되지 않았습니다. 변수를 입력해주세요.</value>
+  </data>
+  <data name="PAYMENT_CANCELED_BY_CUSTOMER" xml:space="preserve">
+    <value>고객이 결제를 취소했습니다.</value>
+  </data>
+  <data name="PAYMENT_IS_NULL" xml:space="preserve">
+    <value>Payment Content 변수가 입력되지 않았습니다. 변수를 입력해주세요.</value>
+  </data>
+  <data name="PAYMENT_METHOD_IS_NULL" xml:space="preserve">
+    <value>PaymentMethod에 대한 변수가 입력되지 않았습니다. 확인 후 다시 시도하십시요.</value>
+  </data>
+  <data name="PAYMENT_NOT_FOUND" xml:space="preserve">
+    <value>결제정보가 존재하지 않습니다.</value>
+  </data>
+  <data name="PAYMET_ALREADY_EXISTS" xml:space="preserve">
+    <value>결제 정보가 이미 존재합니다.</value>
+  </data>
+  <data name="REQUEST_IS_INVALID" xml:space="preserve">
+    <value>요청이 잘못되었습니다. 확인 후 다시 시도하십시요.</value>
+  </data>
+  <data name="REQUIRED_DATA_IS_NOT_SATISFIED" xml:space="preserve">
+    <value>필수 데이터가 충족되지 않습니다. 확인 후 다시 시도하십시요.</value>
+  </data>
+  <data name="REQUIRED_PRARMETER_IS_NULL" xml:space="preserve">
+    <value>필요한 변수가 전부 입력되었는지 확인해 주세요.</value>
+  </data>
+  <data name="RESERVATION_NOT_FOUND" xml:space="preserve">
+    <value>예약이 존재하지 않습니다.</value>
+  </data>
+  <data name="ROOM_CAPACITY_HAS_EXCEEDED" xml:space="preserve">
+    <value>객실 수용 가능인원을 초과하였습니다. 인원 조정후 다시 시도해 주세요.</value>
+  </data>
+  <data name="TIME_OUT_FOR_PAYMENT_REQUEST" xml:space="preserve">
+    <value>결제 요청시간이 초과되었습니다. 다시 결제를 시도해주세요.</value>
+  </data>
+  <data name="TOSS_ORDER_ID_IS_WRONG" xml:space="preserve">
+    <value>orderId Type Error! SDK 호출 시 orderId에 예약ID(int)를 기입해주세요.</value>
+  </data>
+  <data name="TOTAL_PRICE_IS_INVALID" xml:space="preserve">
+    <value>totalPrice가 서버와 일치하지 않습니다. 확인 후 다시 시도하십시요.</value>
+  </data>
+  <data name="UNAVAILABLE_LISTING" xml:space="preserve">
+    <value>죄송합니다. 이용불가능한 지점입니다. 다른 지점을 예약해주세요.</value>
+  </data>
+  <data name="UNBOOKABLE_LISTING" xml:space="preserve">
+    <value>죄송합니다. 해당 날짜에 예약이 가능하지 않습니다.</value>
+  </data>
+</root>

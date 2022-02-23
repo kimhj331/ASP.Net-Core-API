@@ -1,0 +1,31 @@
+﻿<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <script src="https://js.tosspayments.com/v1"></script>
+    <title>Title</title>
+</head>
+<body>
+    <section>
+        <!-- ... -->
+        <span>총 주문금액</span>
+        <span>15,000 원</span>
+        <button id="payment-button">15,000원 결제하기</button>
+    </section>
+    <script>
+        var clientKey = 'test_ck_jkYG57Eba3GmgRMJOWzrpWDOxmA1'
+        var tossPayments = TossPayments(clientKey)
+        var button = document.getElementById('payment-button') // 결제하기 버튼
+        button.addEventListener('click', function () {
+            tossPayments.requestPayment('카드', {
+                amount: 225384,
+                orderId: '12056788',
+                orderName: 'Y257 · Entire House @BUTLER:LEE Railpark',
+                customerName: '',
+                successUrl: 'https://localhost:44338/api/payments/test/success?reservationId=12056788',
+                failUrl: 'http://localhost:44338/api/payments/test/fail?ReservationId=12056788',
+            })
+        })
+    </script>
+</body>
+</html>

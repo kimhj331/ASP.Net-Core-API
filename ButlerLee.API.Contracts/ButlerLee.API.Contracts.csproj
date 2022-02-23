@@ -1,0 +1,13 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>netcoreapp3.1</TargetFramework>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\ButlerLee.API.Entities\ButlerLee.API.Entities.csproj" />
+    <ProjectReference Include="..\ButlerLee.API.Models\ButlerLee.API.Models.csproj" />
+    <ProjectReference Include="..\ButlerLee.API.Models\ButlerLee.API.Models.csproj" />
+  </ItemGroup>
+
+</Project>

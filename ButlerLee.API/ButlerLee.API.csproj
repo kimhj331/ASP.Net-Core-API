@@ -1,0 +1,49 @@
+﻿<Project Sdk="Microsoft.NET.Sdk.Web">
+
+  <PropertyGroup>
+    <TargetFramework>netcoreapp3.1</TargetFramework>
+    <ProduceReferenceAssembly>False</ProduceReferenceAssembly>
+    <GenerateDocumentationFile>True</GenerateDocumentationFile>
+    <UserSecretsId>352a3cac-7f3f-4010-a919-37bac987bc61</UserSecretsId>
+  </PropertyGroup>
+
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|AnyCPU'">
+    <WarningsAsErrors>;NU1605</WarningsAsErrors>
+    <NoWarn>1701;1702;1591</NoWarn>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="AutoMapper" Version="10.1.1" />
+    <PackageReference Include="AutoMapper.Extensions.Microsoft.DependencyInjection" Version="8.1.1" />
+    <PackageReference Include="IdentityModel.AspNetCore" Version="4.1.2" />
+    <PackageReference Include="Microsoft.AspNetCore.Mvc.Core" Version="2.2.5" />
+    <PackageReference Include="Microsoft.EntityFrameworkCore.Design" Version="3.1.22">
+      <PrivateAssets>all</PrivateAssets>
+      <IncludeAssets>runtime; build; native; contentfiles; analyzers; buildtransitive</IncludeAssets>
+    </PackageReference>
+    <PackageReference Include="Microsoft.Extensions.Http" Version="3.1.22" />
+    <PackageReference Include="Microsoft.Extensions.Http.Polly" Version="3.1.22" />
+    <PackageReference Include="ncrontab" Version="3.3.1" />
+    <PackageReference Include="NLog" Version="4.7.13" />
+    <PackageReference Include="Swashbuckle.AspNetCore" Version="6.2.3" />
+    <PackageReference Include="Swashbuckle.AspNetCore.Newtonsoft" Version="6.2.3" />
+    <PackageReference Include="System.Collections" Version="4.3.0" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\ButlerLee.API.Clients\ButlerLee.API.Clients.csproj" />
+    <ProjectReference Include="..\ButlerLee.API.Contracts\ButlerLee.API.Contracts.csproj" />
+    <ProjectReference Include="..\ButlerLee.API.Entities\ButlerLee.API.Entities.csproj" />
+    <ProjectReference Include="..\ButlerLee.API.LoggerService\ButlerLee.API.LoggerService.csproj" />
+    <ProjectReference Include="..\ButlerLee.API.Models\ButlerLee.API.Models.csproj" />
+    <ProjectReference Include="..\ButlerLee.API.Repositories\ButlerLee.API.Repositories.csproj" />
+    <ProjectReference Include="..\ButlerLee.API.Services\ButlerLee.API.Services.csproj" />
+    <ProjectReference Include="..\ButlerLee.API.Utilities\ButlerLee.API.Utilities.csproj" />
+	  
+  </ItemGroup>
+
+  <ItemGroup>
+    <DotNetCliToolReference Include="Microsoft.Extensions.SecretManager.Tools" Version="1.0.0-msbuild3-final" />
+  </ItemGroup>
+  
+</Project>
